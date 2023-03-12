@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 class Product //pääluokka
 {
     public string Name { get; set; } //tuotteen nimi
-    public string Type {get; set; }  //mihin kategoriaan tuote kuuluu
+    public string Type { get; set; }  //mihin kategoriaan tuote kuuluu
     public double Price { get; set; } //tuotteen hinta
     public int Quantity { get; set; } //määrä varastossa
 

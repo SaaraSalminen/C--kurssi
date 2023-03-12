@@ -1,4 +1,7 @@
-class Clotes : Product //periytyvä luokka, vaatteet
+﻿using System.Diagnostics;
+using System.Xml.Linq;
+
+class Clothes : Product //periytyvä luokka, vaatteet
 {
     public string Brand { get; set; }
 
@@ -10,6 +13,6 @@ class Clotes : Product //periytyvä luokka, vaatteet
 
     public override void Display()
     {
-        Console.WriteLine($"Product name: {Name}, type of product: {Type}, by {Brand} - ${Price} - Currenty {Quantity} pieces in stock");
+        Console.WriteLine($"Product name: {Name}, type of product: {Type}, by {Brand} - ${Price} - Total amount of {Quantity} pieces in stock");
     }
 }
