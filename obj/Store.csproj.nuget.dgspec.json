@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joona\\Desktop\\SchoolStuff\\C#\\C--kurssi\\Store\\Store.csproj": {}
+    "C:\\Users\\35850\\OneDrive\\Työpöytä\\repositorio C#\\Store.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joona\\Desktop\\SchoolStuff\\C#\\C--kurssi\\Store\\Store.csproj": {
+    "C:\\Users\\35850\\OneDrive\\Työpöytä\\repositorio C#\\Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joona\\Desktop\\SchoolStuff\\C#\\C--kurssi\\Store\\Store.csproj",
+        "projectUniqueName": "C:\\Users\\35850\\OneDrive\\Työpöytä\\repositorio C#\\Store.csproj",
         "projectName": "Store",
-        "projectPath": "C:\\Users\\joona\\Desktop\\SchoolStuff\\C#\\C--kurssi\\Store\\Store.csproj",
-        "packagesPath": "C:\\Users\\joona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joona\\Desktop\\SchoolStuff\\C#\\C--kurssi\\Store\\obj\\",
+        "projectPath": "C:\\Users\\35850\\OneDrive\\Työpöytä\\repositorio C#\\Store.csproj",
+        "packagesPath": "C:\\Users\\35850\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\35850\\OneDrive\\Työpöytä\\repositorio C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\35850\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
