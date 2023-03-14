@@ -1,12 +1,12 @@
 ﻿using System;
 class Product //pääluokka
 {
-    public string Name { get; set; } //tuotteen nimi
-    public string Type { get; set; }  //mihin kategoriaan tuote kuuluu
-    public double Price { get; set; } //tuotteen hinta
-    public int Quantity { get; set; } //määrä varastossa
+    public string Name { get; set; } //pythonissa ei käytetä näitä public-alkuisia määritteitä ja tätä osiota ei tarvittais ollenkaan
+    public string Type { get; set; }  
+    public double Price { get; set; } 
+    public int Quantity { get; set; } 
 
-    public Product(string name, String type, double price, int quantity)
+    public Product(string name, String type, double price, int quantity) //Pythonissa metodi määriteltäisiin def_init
     {
         Name = name;
         Type = type;
