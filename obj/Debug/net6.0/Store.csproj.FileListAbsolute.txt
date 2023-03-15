@@ -43,3 +43,18 @@ C:\Users\35850\OneDrive\Työpöytä\repositorio C#\obj\Debug\net6.0\refint\Store
 C:\Users\35850\OneDrive\Työpöytä\repositorio C#\obj\Debug\net6.0\Store.pdb
 C:\Users\35850\OneDrive\Työpöytä\repositorio C#\obj\Debug\net6.0\Store.genruntimeconfig.cache
 C:\Users\35850\OneDrive\Työpöytä\repositorio C#\obj\Debug\net6.0\ref\Store.dll
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\bin\Debug\net6.0\Store.exe
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\bin\Debug\net6.0\Store.deps.json
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\bin\Debug\net6.0\Store.runtimeconfig.json
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\bin\Debug\net6.0\Store.dll
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\bin\Debug\net6.0\Store.pdb
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.csproj.AssemblyReference.cache
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.AssemblyInfoInputs.cache
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.AssemblyInfo.cs
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.csproj.CoreCompileInputs.cache
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.dll
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\refint\Store.dll
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.pdb
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\Store.genruntimeconfig.cache
+C:\Users\joona\Desktop\SchoolStuff\C#\github3\obj\Debug\net6.0\ref\Store.dll
