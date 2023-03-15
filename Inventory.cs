@@ -19,13 +19,13 @@
     public void DisplaySearchResults(List<Product> results)
     {
         Console.WriteLine("Search Results:");
-        Console.WriteLine("---------------");
+        Console.WriteLine("--------------");
         foreach (Product product in results)
         {
             Console.WriteLine($"Name: {product.Name}");
             Console.WriteLine($"Price: ${product.Price}");
             Console.WriteLine($"In stock: {product.Quantity}");
-            Console.WriteLine("---------------");
+            Console.WriteLine("--------------");
         }
     }
 
@@ -38,13 +38,13 @@
         Cart cart = new Cart();
 
         Console.WriteLine("Current inventory:\n"); //Pythonissa ei käytetä Console.WriteLine tai -Read.Line vaan input ja print
-        Console.WriteLine("---------------");
+        Console.WriteLine("--------------");
         for (int i = 0; i < products.Length; i++)
         {
             Console.Write("[" + i + "] ");
             products[i].Display();
         }
-        Console.WriteLine("---------------");
+        Console.WriteLine("--------------");
         Console.WriteLine();
 
         bool continueShopping = true;
@@ -60,7 +60,15 @@
                     numberSelection = Convert.ToInt32(Console.ReadLine());
                     try
                     {
-                        cart.AddToCart(products[numberSelection]);
+                        if (products[numberSelection].numberInCart == products[numberSelection].Quantity)
+                        {
+                            Console.WriteLine("No more left in stock");
+                        }
+                        else
+                        {
+                            products[numberSelection].numberInCart++;
+                            cart.AddToCart(products[numberSelection]);
+                        }
                     }
                     catch (Exception e)
                     {

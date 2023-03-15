@@ -25,12 +25,12 @@ class Cart
 
     public void DisplayCart()
     {
-        Console.WriteLine("---------------");
+        Console.WriteLine("-----Cart-----");
         for (int i = 0; i < items.Count; i++)
         {
             Console.WriteLine("[" + i + "] " + items[i].Name);
         }
-        Console.WriteLine("---------------");
+        Console.WriteLine("--------------");
     }
 
     public double CalculateTotal()
