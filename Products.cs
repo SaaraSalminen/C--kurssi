@@ -15,6 +15,7 @@ class Product //pääluokka
         Quantity = quantity;
     }
 
+    // virtual-avainsanaa käytetään määrittelemään miten perittyjä metodeja käytetään. Tätä ei tarvita Pythonissa
     public virtual void Display()
     {
         string v = $"Product name: {Name}, type of product: {Type}, price:  ${Price}, currently {Quantity} in stock";

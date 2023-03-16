@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Xml.Linq;
 
+// Toisin kuin C#:ssa, Pythonissa on mahdollista käyttää moniperintää, jonka avulla luokka voi periytyä useasta yliluokasta
 class Electronics : Product //periytyvä luokka, elektroniikka
 {                           
     public string Manufacturer { get; set; }
@@ -11,8 +12,10 @@ class Electronics : Product //periytyvä luokka, elektroniikka
         Manufacturer = manufacturer;
     }
 
+    // override-avainsanaa käytetään määrittelemään miten perittyjä metodeja käytetään. Tätä ei tarvita Pythonissa
     public override void Display()
     {
-        Console.WriteLine($"Product name: {Name}, product type: {Type}, - Made by: {Manufacturer}, - ${Price} - Total amount of {Quantity} pieces in stock ");
+        Console.WriteLine($"Product name: {Name}, product type: {Type}, - Made by: {Manufacturer}," +
+            $" - ${Price} - Total amount of {Quantity} pieces in stock ");
     }
 }

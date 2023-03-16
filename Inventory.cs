@@ -1,8 +1,11 @@
-﻿class Inventory //määritellään luokille attribuutteja
+﻿class Inventory // määritellään luokille attribuutteja
 {
     public Product[] FillInventory()
     {
-        Product[] products = new Product[3]; //pythonissa ei käytetä Array:ta vaan sen sijaan listoja, joille ei tarvitse määritellä kokoa niinkuin tässä
+        Product[] products = new Product[3]; // Pythonissa ei ole sisäänrakennettua tukea taulukoille
+                                             // Pythonissa käytetään sen sijaan listoja, joille ei tarvitse määritellä kokoa
+                                             // Pythonille on saatavilla ulkoisia kirjastoja taulukkoja varten
+                                             // C#:ssa on taulukkojen lisäksi listoja
 
         products[0] = new Electronics("Nocia 3310", "phone", 499.99, 5, "Nocia");
         products[1] = new Food("Xiqitita", "banana", 1.99, 67, 20.12);
@@ -37,7 +40,7 @@
 
         Cart cart = new Cart();
 
-        Console.WriteLine("Current inventory:\n"); //Pythonissa ei käytetä Console.WriteLine tai -Read.Line vaan input ja print
+        Console.WriteLine("Current inventory:\n"); // Pythonissa ei käytetä Console.WriteLine tai -Read.Line vaan input ja print
         Console.WriteLine("--------------");
         for (int i = 0; i < products.Length; i++)
         {
